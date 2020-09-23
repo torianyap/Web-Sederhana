@@ -1,0 +1,57 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%; 
+  }
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color: silver;
+}
+
+.form{
+    color: white;
+    text-align: center;
+}
+  
+.main ,.gift  {
+    margin-top: 350px;
+    color: white; 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-image: linear-gradient(to right,blue,magenta );
+}
+
+footer{
+    background-color:  #333;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 10px;
+    color: white;
+    position: fixed;
+    text-align: center;
+}

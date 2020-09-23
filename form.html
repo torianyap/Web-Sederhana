@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+      <a href="./index.html">Home</a>
+        <a href="./form.html">Form</a>
+        <a href="./gift.html">Gift</a>
+      </div>
+      
+      <div class="form">
+        <h2>Sign Up Form</h2>
+    
+    <form action="./gift.html" method="POST">
+    
+        <label for="firstname">First Name:</label> <br>
+        <input type="text" name = "firstname" id="firstname" required/>
+            
+        <br><br>
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" name = "lastname" id="lastname" required/>
+        
+        
+    <br><br>
+        
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" id="gender" value="Male"/> Male <br>
+        <input type="radio" name="gender" id="gender" value="Female"/> Female <br>
+        <input type="radio" name="gender" id="gender" value="Other"/> Other <br>
+           
+        
+        <br>
+        
+        <label for="nationality">Nationality</label><br>
+        <select name="nationality" id="nationality" required>
+            <option value="Indonesian">Indonesian</option>
+            <option value="Malaysian">Malaysian</option>
+            <option value="Singaporean">Singaporean</option>
+            <option value="Australian">Australian</option>
+        </select>
+        
+        <br><br>
+        
+        <label for="language">Language Spoken:</label> <br>
+        <input type="checkbox" name="languange" id="language" value="Bahasa Indonesia"> Bahasa Indonesia <br>
+        <input type="checkbox" name="languange" id="language" value="English"> English <br>
+        <input type="checkbox" name="languange" id="language" value="Other"> Other <br>
+        
+        <br>
+        <label for="bio">Bio:</label><br>
+        <textarea id ="bio"rows="10" cols="25" required></textarea>
+        
+        <br>
+    <input type="submit" value="Sign Up">
+    </form>
+      </div>
+
+      <footer>
+        entertainment purposes<br>
+        dont hate me
+    </footer>
+</body>
+</html>
