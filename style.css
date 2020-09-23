@@ -33,6 +33,8 @@ a:visited{
     color: white;
     text-align: center;
     overflow: scroll;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
   
 .main ,.gift  {
